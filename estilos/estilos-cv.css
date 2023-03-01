@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Bebas+Neue&family=Courgette&display=swap');
+* {	
+	font-family: 'Barlow', sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #0d0d0d;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+    background: url("991779.jpg");
+    background-size: cover;
+    background-position: center top;
+    color: #fff;
+}
+/* Menu */
+
+header {	
+	text-align: center;
+	padding: 0 10px;
+	max-width: 1000px;
+	margin:auto;
+}
+header nav {
+	padding: 30px;
+}
+.navbar {
+	position: fixed;
+	margin-left: 60px;
+	background-color: #fbd2b4;
+	padding: 15px;
+	border-radius: 10px ;
+	text-align: left;
+	z-index: 99;
+	display: none;
+}
+.navbar a {
+	display: block;
+	color: #f7a162;
+	text-decoration: none;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.navegador {
+	position: fixed;
+	background-color: #fbd2b4;
+	font-size: 20px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	line-height: 50px;
+	cursor: pointer;
+	transition: .3s;
+}
+.navegador:hover {
+	box-shadow: 0 0 35px #f7a162;
+	font-weight: bold;
+}
+
+/*Main */
+section {
+	margin-top: 15%;
+	margin-bottom: 40px;
+	background-color: #fdddca;
+	border-top: 2px solid #f7a162;
+	border-bottom: 2px solid #f7a162;
+	padding-top: 40px;
+	padding-left: 20px;
+	padding-bottom: 50px ;
+
+}
+section h1 {
+	text-align: center;
+}
+
+/* Primera Seccion: Sobre Mi*/
+.contenedor {
+	display: flex;
+	columns: 2 ;
+	column-rule: 2px;
+}
+img {
+	border-radius: 50%;
+	max-width: 200px;
+	border: 2px solid #f7a162;
+	margin-left: 30%;
+}
+hr {
+	border: 0.4mm solid #f7a162;
+}
+.columna1 {
+	flex: 0 0 auto;
+	width: 30%
+}
+.columna2 {
+	flex: 0 0 auto;
+	width: 70%;
+}
+.home {
+	columns: 2;
+}
+.columna3 {
+	flex: 0 0 auto;
+	width: 50%;
+}
+.columna4 {
+	flex: 0 0 auto;
+	width: 50%;
+}
+.columna4 p {
+	font-size: 15px;
+	margin: 5px;
+	margin-left: -20px;
+	padding: 10px;
+}
+.columna3 h2 {
+	margin-left: 20%;
+	font-size: 20px;
+}
+
+.columna2 h1 {
+	text-align: left;
+	margin-top: -10px;
+	font-family: 'Courgette', cursive;
+
+}
+.columna2 p {
+	margin: 5px;
+}
+/* Segunda Seccion: Habilidades */
+.Barra {
+	padding: 80x 0 100px 0;
+	text-align: center;
+	background: none;
+	border: none;
+}
+.Barra #About {
+	max-width: 1000px;
+	margin: auto;
+	padding: 0 10px;
+}
+#About h2 {
+	font-family: 'Courgette', cursive;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 35px;
+}
+
+.Barra hr {
+	margin-right: 5%;
+	margin-left: 5%;
+
+}
+span {
+	color: #fff;
+}
+.content-fila {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.fila {
+	margin-top: 20px;
+}
+.fila span {
+	font-size: 30px;
+	font-family: 'Bebas Neue', cursive;
+}
+.Contenido {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.ContenidoDeBarra {
+	display: flex;
+	border: 1px solid #f7a162;
+	padding: 4px;
+	border-radius: 3px;
+	margin-right: 10px;
+}
+.e {
+	background-color: #363636;
+	width: 95px;
+	height: 30px;
+	margin-right: 2px;
+}
+
+/*Tercera Seccion : Resumen*/
+
+.resumen {
+    background-color: #fdddca;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.resumen h2 {
+	font-family: 'Courgette', cursive;
+	font-size: 35px;
+}
+.contenido-seccion {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.contenido-seccion h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.info {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.col{
+    width: 45%;
+}
+.titulo {
+    display: inline-block;
+    color: #f7a162;
+    font-weight: bold;
+    border: 2px solid #f7a162;
+    padding: 10px;
+
+}
+.col table {
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.datos {
+    width: 40%;
+    border-bottom: 1px solid #f7a162;
+}
+.col table h4 {
+    margin-top: 10px;
+}
+.col table h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.col table p {
+    font-size: 14px;
+}
+.col table .promedio {
+    display: block;
+    color: #f7a162;
+    margin-top: 10px;
+    font-weight: bold;
+}
+table .descripcion {
+    border-left: 1px solid #bab9b9;
+    padding-left: 20px;
+}
+/*Cuarta Seccion: Contacto */
+footer {
+	background-color: #f7a162;
+	padding: 140px 0 100px 0;
+    color: #e6e6e6;
+    text-align: center; 
+}
+footer h3 {
+	font-family: 'Courgette', cursive;
+	font-size: 50px;
+}
+.footer .col {
+	width: 100%
+}
+/* Responsive*/
+@media screen and (max-width:1200px){
+    .contenedor{
+        display: block;
+        columns: 1;
+		padding-left: 20%;
+	}
+	.home {
+		display: flex;
+		columns: 2;
+		padding-bottom: 50px;
+
+	}
+	.columna3 {
+		flex: 0 0 auto; 
+		width: 140%;
+
+	}
+	.columna4 {
+		flex: 0 0 auto;
+		width: 50%;
+	}
+	img {
+		margin-left: 50px;
+	}
+}
+@media screen and (max-width:900px){
+	.home {
+		display: block;
+		columns: 1;
+
+	}
+	.columna3 {
+		width: 250%;
+	}
+	.columna4 {
+		padding-left: 50px;
+		width: 250%;
+	}
+	img {
+		margin-left: 35px;
+	}
+	.e {
+		width: 10%;
+	}
+}
