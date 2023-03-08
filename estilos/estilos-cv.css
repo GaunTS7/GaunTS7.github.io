@@ -309,4 +309,22 @@ footer h3 {
 	.e {
 		width: 10%;
 	}
+	.info{
+        display: block;
+    }
+    .info .col{
+        width: 90%;
+        margin: auto;
+    }
+    .info .col .titulo{
+        display: block;
+        text-align: center;
+    }
+    .info .col table{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .footer .fila{
+        display: block;
+    }
 }
